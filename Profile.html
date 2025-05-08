@@ -9,7 +9,7 @@
 <body>
 
 <div class="container" style="margin-top: 50px;">
-    <button onclick="logout()" class="btn btn-danger pull-right">Logout</button>
+    <button onclick="Logout()" class="btn btn-danger pull-right">Logout</button>
     <h2>Profile</h2>
     <hr>
     <h4>Welcome, <span id="username"></span></h4>
@@ -29,7 +29,7 @@
     function Logout() {
         localStorage.removeItem('name');
         localStorage.removeItem('email');
-        window.location.href = "login.html";
+        window.location.href = "Login.html";
     }
 </script>
 
